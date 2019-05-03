@@ -21,7 +21,16 @@
 
 - Esqueleto en html, con funcionalidad de login.
 - Creación del proyecto en firebase, y testeo de login de usuarios.
-- 
+
+
+### Historias de usuario:
+
+- Como cliente, quiero: 
+    - una plataforma para impartir docencia virtual.
+    - una plataforma rápida.
+    - ser capaz de añadir recursos a cada asignatura que imparta.
+    - poder evaluar a los alumnos.
+    - poder añadir alumnos a una asignatura que imparta.
 
 
 ### Fecha de la primera presentación al cliente:
