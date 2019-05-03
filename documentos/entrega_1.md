@@ -1,4 +1,5 @@
-# Entregable 1:
+#	Entregable 1:
+
 
 ### Miembros del equipo:
   
@@ -10,11 +11,13 @@
     - Esther Jorge Paramio
 
 
+
 ### Plan de trabajo:
 
 - Reuniones:
     - Viernes a las 9:
 	En esta reunión se han establecido los roles del equipo. Además, hemos esbozado nuestro proyecto, aclarando las herramientas que utilizaremos y los requisitos básicos del software.
+
 
 
 ### Requisitos del software:
@@ -23,14 +26,16 @@
 - Creación del proyecto en firebase, y testeo de login de usuarios.
 
 
+
 ### Historias de usuario:
 
 - Como cliente, quiero: 
-    - una plataforma para impartir docencia virtual.
-    - una plataforma rápida.
-    - ser capaz de añadir recursos a cada asignatura que imparta.
-    - poder evaluar a los alumnos.
-    - poder añadir alumnos a una asignatura que imparta.
+    - Una plataforma para impartir docencia virtual.
+    - Una plataforma rápida.
+    - Ser capaz de añadir recursos a cada asignatura que imparta.
+    - Poder evaluar a los alumnos.
+    - Poder añadir alumnos a una asignatura que imparta.
+
 
 
 ### Fecha de la primera presentación al cliente:
