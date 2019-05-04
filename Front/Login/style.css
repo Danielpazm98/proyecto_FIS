@@ -1,11 +1,52 @@
+body{
+	background-image: url('2.jpg') no-repeat;
+	background-position: center center;
+
+	/* background-repeat: no-repeat; */
+	/* opacity: 0.5; */
+}
+
+.limiter{
+	background: white;
+	width: 500px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+img{
+	background: rgb(42, 165, 155);
+	background-image: url("2.png");
+	opacity: 0.5;
+	position: initial;
+	z-index: -1;
+}
+
+.bottom{
+	padding-bottom: 300px;
+	color: white;
+}
 
 h1{
 	text-align: center;
 	padding-top: 100px;
+	opacity: 1;
+}
+.Username{
+
+	margin-left: 100px; 
+	/* margin-right: auto; */
+}
+
+.Passwd{
+	margin-left: 100px;
+	margin-top: 5px;
+
 }
 
 button{
-	background-color: rgb(173, 188, 235);
-	
+	margin-top: 5px;
+		margin-left: 200px;
 }
+
+
 

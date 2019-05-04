@@ -16,8 +16,19 @@
                 check=false;
             }
         }
-        return check;
+        if (check == true) {
+            alert("ok");
+            window.location = '../prueba.html';
+        } else {
+            alert("Error");
+        }
+
+        // window.open("/Login/prueba.html", "/js/main.js");
+        // return check;
+        // is_valid(check);
     });
+
+   
 
 
     $('.validate-form .input100').each(function(){
@@ -25,6 +36,17 @@
            hideValidate(this);
         });
     });
+
+
+    function is_valid() {
+
+        if(check == true){
+            window.location = '../prueba.html';
+        }else{
+            alert("Error");
+        }
+
+    }
 
     function validate (input) {
         if($(input).attr('type') == 'email' || $(input).attr('name') == 'email') {
