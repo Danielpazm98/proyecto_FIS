@@ -7,6 +7,7 @@ body{
 }
 
 .limiter{
+	/* padding-top: 200px; */
 	background: white;
 	width: 500px;
 	height: 300px;
@@ -37,7 +38,7 @@ h1{
 	margin-left: 100px;
 	display: block; 
 	width: 100%;
-	border-radius: 3px;
+	/* border-radius: 3px; */
 	/* margin-right: auto; */
 }
 
@@ -48,12 +49,38 @@ h1{
 
 }
 .user_input{
+	/* margin-left: auto;
+	margin-right: auto; */
+	font-family: 'Roboto', sans-serif;
+	/* text-align: center; */
+	padding-left: 20px;
+	font-size: 16px;
 	border-radius: 2px;
+	width: 250px;
+	height: 30px;
+	background: #e7e2e2;
+	border: 3px;
+}
+
+.pwd_input{
+	/* margin-left: auto;
+	margin-right: auto; */
+	font-family: 'Roboto', sans-serif;
+	padding-left: 20px;
+	font-size: 16px;
+	border-radius: 2px;
+	width: 250px;
+	height: 30px;
+	background: #e7e2e2;
+	border: 3px;
 }
 
 button{
-	margin-top: 5px;
-		margin-left: 200px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+	margin-left: 200px;
+	width: 70px; 
+	height: 30px;
 }
 
 
