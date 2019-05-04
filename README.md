@@ -1,10 +1,10 @@
 # proyecto_FIS
 
-    Proyecto para la asignatura de Fundamentos de Ingeniería del Software.
+   Proyecto para la asignatura de Fundamentos de Ingeniería del Software.
 
 ### Finalidad:
 
-    Elaborar una plataforma muy básica para impartir docencia virtual usando una metodología ágil.
+   Elaborar una plataforma muy básica para impartir docencia virtual usando una metodología ágil.
 
 ### Miembros del grupo:
 
