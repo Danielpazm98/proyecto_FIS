@@ -15,10 +15,15 @@
 ### Plan de trabajo:
 
 - Reuniones:
-    - Viernes a las 9:
+    - Viernes 3/5/2019 a las 9:00:
 	En esta reunión se han establecido los roles del equipo. Además, hemos esbozado nuestro proyecto, aclarando las herramientas que utilizaremos y los requisitos básicos del software.
-
-
+    
+    - Domingo 4/5/2019 a las 9:30: 
+	En esta reunión hemos creado el proyecto de github, y empezado a desarrollar el esqueleto del software. Además, hemos aclarado el uso que le daremos a Github en cuanto a las ramas y los push.
+	Los roles, internamente, quedarán así:
+	    - Daniel: Firebase.
+	    - Victoria, David: JavaScript.
+	    - Esther, Eduardo: HTML, CSS.
 
 ### Requisitos del software:
 
