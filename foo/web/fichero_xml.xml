@@ -1,0 +1,210 @@
+<?xml version="1.0" ?>
+<!-- XALAN -IN EJEMPLO.XML -XSL PLANTILLA.XSL -OUT SALIDA.HTML -->
+
+<USERS>
+
+  <CAT id="1">
+    <NICK>Ninja Cat</NICK>
+    <POSTS>0</POSTS>
+    <COMMENTS>1</COMMENTS>
+    <MIAUS>3295394229999</MIAUS>
+    <EMAIL>ninjacat@miau.cat</EMAIL>
+    <FECHAREG>30/02/-1922</FECHAREG>
+    <CONEXION>-03/-03/-99999</CONEXION>
+    <DESCRIPCION>Nadie sabe quién se oculta detrás de su Nickname. Siempre anda en los lugares más oscuros de internet y dicen que es el mayor cibercriminal de todos. Se sabe que es Script Kiddie, pero siempre encuentra la manera de liarla.</DESCRIPCION>
+    <IMG>image/ninja.png</IMG>
+  </CAT>
+
+  <CAT id="2">
+    <NICK>Mario Cat</NICK>
+    <POSTS>5</POSTS>
+    <COMMENTS>3</COMMENTS>
+    <MIAUS>5</MIAUS>
+    <EMAIL>mariocat@miau.cat</EMAIL>
+    <FECHAREG>27/11/2018</FECHAREG>
+    <CONEXION>28/11/2018</CONEXION>
+    <DESCRIPCION>¿No has jugado al Mario Cat?</DESCRIPCION>
+    <IMG>image/avatar.png</IMG>
+  </CAT>
+
+  <CAT id="3">
+    <NICK>Gato Volador</NICK>
+    <POSTS>20</POSTS>
+    <COMMENTS>25</COMMENTS>
+    <MIAUS>304</MIAUS>
+    <EMAIL>gatovolador@miau.cat</EMAIL>
+    <FECHAREG>7/12/2018</FECHAREG>
+    <CONEXION>31/12/2018</CONEXION>
+    <DESCRIPCION>Volando voy, volando vengo.</DESCRIPCION>
+    <IMG>image/avatar.png</IMG>
+  </CAT>
+
+  <CAT id="4">
+    <NICK>Member Cat</NICK>
+    <POSTS>59</POSTS>
+    <COMMENTS>187</COMMENTS>
+    <MIAUS>77</MIAUS>
+    <EMAIL>membercat@miau.cat</EMAIL>
+    <FECHAREG>1/01/2019</FECHAREG>
+    <CONEXION>2/01/2019</CONEXION>
+    <DESCRIPCION>Un miembro cualquiera</DESCRIPCION>
+    <IMG>image/avatar.png</IMG>
+  </CAT>
+
+  <CAT id="5">
+    <NICK>Gato Spammer</NICK>
+    <POSTS>0</POSTS>
+    <COMMENTS>837383</COMMENTS>
+    <MIAUS>-958</MIAUS>
+    <EMAIL>spammer@miau.cat</EMAIL>
+    <FECHAREG>3/13/2017</FECHAREG>
+    <CONEXION>4/13/2017</CONEXION>
+    <DESCRIPCION>¡Visita mi página!</DESCRIPCION>
+    <IMG>image/avatar.png</IMG>
+  </CAT>
+
+  <CAT id="6">
+    <NICK>Black Cat</NICK>
+    <POSTS>12</POSTS>
+    <COMMENTS>1</COMMENTS>
+    <MIAUS>13</MIAUS>
+    <EMAIL>blackcat@miau.cat</EMAIL>
+    <FECHAREG>17/09/2018</FECHAREG>
+    <CONEXION>5/01/2019</CONEXION>
+    <DESCRIPCION>Unlucky</DESCRIPCION>
+    <IMG>image/avatar.png</IMG>
+  </CAT>
+
+  <CAT id="7">
+    <NICK>Paquito</NICK>
+    <POSTS>194</POSTS>
+    <COMMENTS>403</COMMENTS>
+    <MIAUS>1093</MIAUS>
+    <EMAIL>paquito@miau.cat</EMAIL>
+    <FECHAREG>7/07/2012</FECHAREG>
+    <CONEXION>9/11/2018</CONEXION>
+    <DESCRIPCION>Gato Paco</DESCRIPCION>
+    <IMG>image/avatar.png</IMG>
+  </CAT>
+
+  <CAT id="8">
+    <NICK>Roberto</NICK>
+    <POSTS>366</POSTS>
+    <COMMENTS>1</COMMENTS>
+    <MIAUS>3299</MIAUS>
+    <EMAIL>roberto@miau.cat</EMAIL>
+    <FECHAREG>31/01/2018</FECHAREG>
+    <CONEXION>29/08/2018</CONEXION>
+    <DESCRIPCION>Malditos gatos</DESCRIPCION>
+    <IMG>image/avatar.png</IMG>
+  </CAT>
+
+  <CAT id="9">
+    <NICK>Nyan Cat</NICK>
+    <POSTS>192</POSTS>
+    <COMMENTS>394</COMMENTS>
+    <MIAUS>9599593</MIAUS>
+    <EMAIL>nyan@miau.cat</EMAIL>
+    <FECHAREG>20/3/2018</FECHAREG>
+    <CONEXION>13/12/2018</CONEXION>
+    <DESCRIPCION>Llamado originalmente Pop Tart Cat. Se hizo famoso en 2011 debido a gente que se aburría. A día de hoy, sigue siendo un meme y sigue arrasando todos los lares de internet.</DESCRIPCION>
+    <IMG>image/nyancat.png</IMG>
+  </CAT>
+
+  <CAT id="10">
+    <NICK>Gato Jaimito</NICK>
+    <POSTS>5449</POSTS>
+    <COMMENTS>93193</COMMENTS>
+    <MIAUS>19333</MIAUS>
+    <EMAIL>jaimito@miau.cat</EMAIL>
+    <FECHAREG>1/01/2019</FECHAREG>
+    <CONEXION>2/01/2019</CONEXION>
+    <DESCRIPCION>Chistes de jaimito</DESCRIPCION>
+    <IMG>image/avatar.png</IMG>
+  </CAT>
+
+  <CAT id="11">
+    <NICK>123456</NICK>
+    <POSTS>123456</POSTS>
+    <COMMENTS>123456</COMMENTS>
+    <MIAUS>123456</MIAUS>
+    <EMAIL>123456@miau.cat</EMAIL>
+    <FECHAREG>5/12/2017</FECHAREG>
+    <CONEXION>31/12/2017</CONEXION>
+    <DESCRIPCION>123456</DESCRIPCION>
+    <IMG>image/avatar.png</IMG>
+  </CAT>
+
+  <CAT id="12">
+    <NICK>Cat Killer</NICK>
+    <POSTS>435</POSTS>
+    <COMMENTS>867</COMMENTS>
+    <MIAUS>0</MIAUS>
+    <EMAIL>catkiller@miau.cat</EMAIL>
+    <FECHAREG>13/10/2018</FECHAREG>
+    <CONEXION>19/01/2019</CONEXION>
+    <DESCRIPCION>Asesino</DESCRIPCION>
+    <IMG>image/avatar.png</IMG>
+  </CAT>
+
+  <CAT id="13">
+    <NICK>Script Kiddie</NICK>
+    <POSTS>928394</POSTS>
+    <COMMENTS>391102</COMMENTS>
+    <MIAUS>-184333</MIAUS>
+    <EMAIL>scriptkiddie@miau.cat</EMAIL>
+    <FECHAREG>3/09/2012</FECHAREG>
+    <CONEXION>12/6/2018</CONEXION>
+    <DESCRIPCION>¿Alguien me enseña a usar metasploit?</DESCRIPCION>
+    <IMG>image/avatar.png</IMG>
+  </CAT>
+
+  <CAT id="14">
+    <NICK>Lorenzo</NICK>
+    <POSTS>5392</POSTS>
+    <COMMENTS>94394</COMMENTS>
+    <MIAUS>3299</MIAUS>
+    <EMAIL>lorenzo@miau.cat</EMAIL>
+    <FECHAREG>31/01/2018</FECHAREG>
+    <CONEXION>29/08/2018</CONEXION>
+    <DESCRIPCION>Securízame esto</DESCRIPCION>
+    <IMG>image/avatar.png</IMG>
+  </CAT>
+
+  <CAT id="15">
+    <NICK>Meowth</NICK>
+    <POSTS>356</POSTS>
+    <COMMENTS>948</COMMENTS>
+    <MIAUS>6958444</MIAUS>
+    <EMAIL>meowth@miau.cat</EMAIL>
+    <FECHAREG>9/5/2018</FECHAREG>
+    <CONEXION>19/12/2018</CONEXION>
+    <DESCRIPCION>Gato conocido por ser uno de los actores principales de Pokémon. Le gusta los deportes de alto riesgo: sociabiliza con humanos e incluso se lleva bien con alguno de ellos. Es experto en volar.</DESCRIPCION>
+    <IMG>image/meowth.jpeg</IMG>
+  </CAT>
+
+  <CAT id="16">
+    <NICK>Admin Cat</NICK>
+    <POSTS>28392</POSTS>
+    <COMMENTS>39000</COMMENTS>
+    <MIAUS>85391</MIAUS>
+    <EMAIL>admin@miau.cat</EMAIL>
+    <FECHAREG>3/09/2010</FECHAREG>
+    <CONEXION>1/01/2019</CONEXION>
+    <DESCRIPCION>Soy tu amo</DESCRIPCION>
+    <IMG>image/avatar.png</IMG>
+  </CAT>
+
+  <CAT id="17">
+    <NICK>Manolo</NICK>
+    <POSTS>56222</POSTS>
+    <COMMENTS>1394</COMMENTS>
+    <MIAUS>7302</MIAUS>
+    <EMAIL>manolo@miau.cat</EMAIL>
+    <FECHAREG>31/10/2018</FECHAREG>
+    <CONEXION>29/11/2018</CONEXION>
+    <DESCRIPCION>Manolo manolín</DESCRIPCION>
+    <IMG>image/avatar.png</IMG>
+  </CAT>
+
+</USERS>

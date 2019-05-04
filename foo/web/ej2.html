@@ -1,0 +1,214 @@
+<html lang="es">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Meetcats</title>
+<meta charset="UTF-8">
+<meta name="description" content="Red social de gatitos.">
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+<link rel="icon" href="image/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+<script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script><script>
+          var config = {
+          apiKey: "AIzaSyDHi_pTjIvVrSExMKRLE5X0RDVjHRBBBBM",
+          authDomain: "sipc-web-a75af.firebaseapp.com",
+          databaseURL: "https://sipc-web-a75af.firebaseio.com",
+          projectId: "sipc-web-a75af",
+          storageBucket: "sipc-web-a75af.appspot.com",
+          messagingSenderId: "298943566864"
+          };
+          firebase.initializeApp(config);
+        </script>
+</head>
+<body>
+<header>
+<nav class="navbar navbar-expand-sm navbar-light"> ﻿
+            <div class="container">
+<button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="mainNav">
+<div class="navbar-nav">
+<a class="nav-item nav-link" href="index.html">Inicio</a><a class="nav-item nav-link active" href="social.html">Social</a><a class="nav-item nav-link" href="memes.html">Memes</a><a class="nav-item nav-link" href="login.html">Login</a>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="jumbotron jumbotron-fluid text-white text-center" style="background-color: #333;">
+<div class="container">
+<h1 id="site-tittle">
+<a href="index.html" class="rm-a">MeetCats</a>
+</h1>
+</div>
+</div>
+<div class="container text-center tittle social-font mb-4">Top 3 Cats</div>
+<div class="container jumbotron d-flex justify-content-center">
+<div class="row">
+<div class="col-lg-4">
+<img class="rounded-circle" src="image/ninja.png" alt="Generic placeholder image" width="140" height="140"><h2>Ninja Cat</h2>
+<p class="top-3-block">Nadie sabe qui&eacute;n se oculta detr&aacute;s de su Nickname. Siempre anda en los lugares m&aacute;s oscuros de internet y dicen que es el mayor cibercriminal de todos. Se sabe que es Script Kiddie, pero siempre encuentra la manera de liarla.</p>
+<p>
+<a class="btn btn-primary bold mb-3" href="#" role="button">Cotillear m&aacute;s &raquo;</a>
+</p>
+</div>
+<div class="col-lg-4">
+<img class="rounded-circle" src="image/nyancat.png" alt="Generic placeholder image" width="140" height="140"><h2>Nyan Cat</h2>
+<p class="top-3-block">Llamado originalmente Pop Tart Cat. Se hizo famoso en 2011 debido a gente que se aburr&iacute;a. A d&iacute;a de hoy, sigue siendo un meme y sigue arrasando todos los lares de internet.</p>
+<p>
+<a class="btn btn-primary bold mb-3" href="#" role="button">Cotillear m&aacute;s &raquo;</a>
+</p>
+</div>
+<div class="col-lg-4">
+<img class="rounded-circle" src="image/meowth.jpeg" alt="Generic placeholder image" width="140" height="140"><h2>Meowth</h2>
+<p class="top-3-block">Gato conocido por ser uno de los actores principales de Pok&eacute;mon. Le gusta los deportes de alto riesgo: sociabiliza con humanos e incluso se lleva bien con alguno de ellos. Es experto en volar.</p>
+<p>
+<a class="btn btn-primary bold mb-3" href="#" role="button">Cotillear m&aacute;s &raquo;</a>
+</p>
+</div>
+</div>
+</div>
+<div class="container text-center tittle social-font mt-4 mb-4">Miembros</div>
+<div class="container jumbotron">
+<div class="table-responsive">
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<th>Nickname</th><th>N&ordm; Publicaciones</th><th>N&ordm; Comentarios</th><th>Total</th><th>Miaus Recibidos</th><th>Email</th><th>Registrado desde</th><th>&Uacute;lt. Conexi&oacute;n</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>123456 cat</td><td>123456</td><td>123456</td><td>246912</td><td>123456</td><td>123456@miau.cat</td><td>5/12/2017</td><td>31/12/2017</td>
+</tr>
+<tr>
+<td>Admin Cat cat</td><td>28392</td><td>39000</td><td>67392</td><td>85391</td><td>admin@miau.cat</td><td>3/09/2010</td><td>1/01/2019</td>
+</tr>
+<tr>
+<td>Black Cat dog</td><td>12</td><td>1</td><td>11</td><td>13</td><td>blackcat@miau.cat</td><td>17/09/2018</td><td>5/01/2019</td>
+</tr>
+<tr>
+<td>Cat Killer dog</td><td>435</td><td>867</td><td>-432</td><td>0</td><td>catkiller@miau.cat</td><td>13/10/2018</td><td>19/01/2019</td>
+</tr>
+<tr>
+<td>Gato Jaimito cat</td><td>5449</td><td>93193</td><td>98642</td><td>19333</td><td>jaimito@miau.cat</td><td>1/01/2019</td><td>2/01/2019</td>
+</tr>
+<tr>
+<td>Gato Spammer dog</td><td>0</td><td>837383</td><td>-837383</td><td>-958</td><td>spammer@miau.cat</td><td>3/13/2017</td><td>4/13/2017</td>
+</tr>
+<tr>
+<td>Gato Volador dog</td><td>20</td><td>25</td><td>-5</td><td>304</td><td>gatovolador@miau.cat</td><td>7/12/2018</td><td>31/12/2018</td>
+</tr>
+<tr>
+<td>Lorenzo dog</td><td>5392</td><td>94394</td><td>-89002</td><td>3299</td><td>lorenzo@miau.cat</td><td>31/01/2018</td><td>29/08/2018</td>
+</tr>
+<tr>
+<td>Manolo dog</td><td>56222</td><td>1394</td><td>54828</td><td>7302</td><td>manolo@miau.cat</td><td>31/10/2018</td><td>29/11/2018</td>
+</tr>
+<tr>
+<td>Mario Cat dog</td><td>5</td><td>3</td><td>2</td><td>5</td><td>mariocat@miau.cat</td><td>27/11/2018</td><td>28/11/2018</td>
+</tr>
+<tr>
+<td>Member Cat dog</td><td>59</td><td>187</td><td>-128</td><td>77</td><td>membercat@miau.cat</td><td>1/01/2019</td><td>2/01/2019</td>
+</tr>
+<tr>
+<td>Meowth cat</td><td>356</td><td>948</td><td>1304</td><td>6958444</td><td>meowth@miau.cat</td><td>9/5/2018</td><td>19/12/2018</td>
+</tr>
+<tr>
+<td>Ninja Cat cat</td><td>0</td><td>1</td><td>1</td><td>3295394229999</td><td>ninjacat@miau.cat</td><td>30/02/-1922</td><td>-03/-03/-99999</td>
+</tr>
+<tr>
+<td>Nyan Cat cat</td><td>192</td><td>394</td><td>586</td><td>9599593</td><td>nyan@miau.cat</td><td>20/3/2018</td><td>13/12/2018</td>
+</tr>
+<tr>
+<td>Paquito dog</td><td>194</td><td>403</td><td>-209</td><td>1093</td><td>paquito@miau.cat</td><td>7/07/2012</td><td>9/11/2018</td>
+</tr>
+<tr>
+<td>Roberto dog</td><td>366</td><td>1</td><td>365</td><td>3299</td><td>roberto@miau.cat</td><td>31/01/2018</td><td>29/08/2018</td>
+</tr>
+<tr>
+<td>Script Kiddie dog</td><td>928394</td><td>391102</td><td>537292</td><td>-184333</td><td>scriptkiddie@miau.cat</td><td>3/09/2012</td><td>12/6/2018</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<footer class="page-footer font-small stylish-color-dark pt-4" style="background-color:#333">
+<div class="container text-center text-md-left white">
+<div class="row">
+<div class="col-md-4 mx-auto">
+<h5 class="font-weight-bold text-uppercase mt-3 mb-4 blue">Redes Sociales</h5>
+<a class="btn-floating btn-lg fa-stack" href="#"><i class="fab fa-instagram fa-stack-2x"></i></a><a class="btn-floating btn-lg fa-stack" href="#"><i class="fab fa-twitter fa-stack-2x"></i></a><a class="btn-floating btn-lg fa-stack" href="#"><i class="fab fa-facebook fa-stack-2x"></i></a><a class="btn-floating btn-lg fa-stack" href="#"><i class="fab fa-youtube fa-stack-2x"></i></a><a class="btn-floating btn-lg fa-stack" href="#"><i class="fab fa-pinterest fa-stack-2x"></i></a>
+</div>
+<hr class="clearfix w-100 d-md-none">
+<div class="col-md-2 mx-auto">
+<h5 class="font-weight-bold text-uppercase mt-3 mb-4 blue">Usuarios</h5>
+<ul class="list-unstyled white">
+<li>
+<a href="404.html">Ninja Cat</a>
+</li>
+<li>
+<a href="404.html">Meowth</a>
+</li>
+<li>
+<a href="404.html">Nyan Cat</a>
+</li>
+</ul>
+</div>
+<hr class="clearfix w-100 d-md-none">
+<div class="col-md-2 mx-auto">
+<h5 class="font-weight-bold text-uppercase mt-3 mb-4 blue">Posts</h5>
+<ul class="list-unstyled white">
+<li>
+<a href="404.html">Ha caido el...</a>
+</li>
+<li>
+<a href="404.html">Adiestrar a...</a>
+</li>
+<li>
+<a href="404.html">123456, su...</a>
+</li>
+<li>
+<a href="404.html">Remiaudise&ntilde;ando el...</a>
+</li>
+</ul>
+</div>
+<hr class="clearfix w-100 d-md-none">
+<div class="col-md-2 mx-auto blue">
+<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Memes</h5>
+<ul class="list-unstyled white">
+<li>
+<a href="404.html">Tu cara cuando...</a>
+</li>
+<li>
+<a href="404.html">Cuando el profesor...</a>
+</li>
+<li>
+<a href="404.html">Toma y que parezca...</a>
+</li>
+<li>
+<a href="404.html">Primer d&iacute;a...</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<hr>
+<ul class="list-unstyled list-inline text-center py-2">
+<li class="list-inline-item">
+<h5 class="mb-1">&iquest;No tienes cuenta?</h5>
+</li>
+<li class="list-inline-item">
+<a href="registro.html" class="btn btn-info btn-rounded">Registrarse</a>
+</li>
+</ul>
+<hr>
+<div class="text-center py-3">&copy; 2018 Copyright:
+          <a href="index.html">Meetcats</a>
+</div>
+</footer>
+</body>
+</html>

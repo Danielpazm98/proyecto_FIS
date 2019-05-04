@@ -1,0 +1,421 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+  <title>Meetcats</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Made by cats">
+  <meta name="keywords" content="Gatos, No humanos, Memes">
+  <meta name="description" content="Red social de gatitos.">
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  <!-- Mantener elementos en su sitio -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- bootstrap resposive mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <script src="js/javascript.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+  <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDHi_pTjIvVrSExMKRLE5X0RDVjHRBBBBM",
+    authDomain: "sipc-web-a75af.firebaseapp.com",
+    databaseURL: "https://sipc-web-a75af.firebaseio.com",
+    projectId: "sipc-web-a75af",
+    storageBucket: "sipc-web-a75af.appspot.com",
+    messagingSenderId: "298943566864"
+  };
+  firebase.initializeApp(config);
+  </script>
+
+
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-light"> ﻿
+      <div class="container">
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+          <span class"navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="index.html">Inicio</a>
+            <a class="nav-item nav-link" href="social.html">Social</a>
+            <a class="nav-item nav-link active" href="memes.html">Memes</a>
+            <a class="nav-item nav-link" href="login.html">Login</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="jumbotron jumbotron-fluid text-white text-center" style="background-color: #333;">
+      <div class="container">
+        <h1 id="site-tittle"><a href="index.html" class="rm-a">MeetCats</a></h1>
+      </div>
+    </div>
+
+    <div class="container mb-4">
+      <div class="row">
+        <div class="col-lg-8">
+
+          <h1><a href="">Tu cara cuando el profesor...</a></h1>
+          <p class="lead"><i class="fa fa-user"></i> por <a href="">Cat Leader</a></p>
+          <hr>
+          <img src="image/meme1.jpg" class="img-responsive">
+          <hr>
+          <p><i class="fa fa-calendar"></i> Publicado el 23 Diciembre, 2018 a las 21:33</p>
+          <p><i class="fa fa-tags"></i> Etiquetas: <a href=""><span class="badge badge-info">Gato</span></a> <a href=""><span class="badge badge-info">Apruebame Profe</span></a> <a href=""><span class="badge badge-info">Haber estudiado</span></a> <a href=""><span class="badge badge-info">Meme</span></a><a href=""> <span class="badge badge-info">Tarea</span></a></p>
+          <form>
+            <p class="clasificacion">
+              <input id="radio1" type="radio" name="estrellas" value="5">
+              <label for="radio1">★</label>
+              <input id="radio2" type="radio" name="estrellas" value="4">
+              <label for="radio2">★</label>
+              <input id="radio3" type="radio" name="estrellas" value="3">
+              <label for="radio3">★</label>
+              <input id="radio4" type="radio" name="estrellas" value="2">
+              <label for="radio4">★</label>
+              <input id="radio5" type="radio" name="estrellas" value="1">
+              <label for="radio5">★</label>
+            </p>
+          </form>
+          <hr>
+
+
+          <h1><a href="">Cuando el profesor...</a></h1>
+          <p class="lead"><i class="fa fa-user"></i> por <a href="">Cat Leader</a></p>
+          <hr>
+          <img src="image/meme2.jpg" class="img-responsive">
+
+          <hr>
+          <p><i class="fa fa-calendar"></i> Publicado el 19 Diciembre, 2018 a las 13:07</p>
+          <p><i class="fa fa-tags"></i> Etiquetas: <a href=""><span class="badge badge-info">Gato</span></a> <a href=""><span class="badge badge-info">Meme</span></a>
+            <form>
+              <p class="clasificacion">
+                <input id="radio1" type="radio" name="estrellas" value="5">
+                <label for="radio1">★</label>
+                <input id="radio2" type="radio" name="estrellas" value="4">
+                <label for="radio2">★</label>
+                <input id="radio3" type="radio" name="estrellas" value="3">
+                <label for="radio3">★</label>
+                <input id="radio4" type="radio" name="estrellas" value="2">
+                <label for="radio4">★</label>
+                <input id="radio5" type="radio" name="estrellas" value="1">
+                <label for="radio5">★</label>
+              </p>
+            </form>
+            <hr>
+
+            <h1><a href="">Toma y que la muerte del perro parezca natural</a></h1>
+            <p class="lead"><i class="fa fa-user"></i> por <a href="">Cat Leader</a></p>
+            <hr>
+            <img src="image/meme3.png" class="img-responsive">
+
+            <hr>
+            <p><i class="fa fa-calendar"></i> Publicado el 19 Diciembre, 2018 a las 12:53</p>
+            <p><i class="fa fa-tags"></i> Etiquetas: <a href=""><span class="badge badge-info">Gato</span></a> <a href=""><span class="badge badge-info">Perro</span></a> <a href=""><span class="badge badge-info">Meme</span></a></p>
+            <form>
+              <p class="clasificacion">
+                <input id="radio1" type="radio" name="estrellas" value="5">
+                <label for="radio1">★</label>
+                <input id="radio2" type="radio" name="estrellas" value="4">
+                <label for="radio2">★</label>
+                <input id="radio3" type="radio" name="estrellas" value="3">
+                <label for="radio3">★</label>
+                <input id="radio4" type="radio" name="estrellas" value="2">
+                <label for="radio4">★</label>
+                <input id="radio5" type="radio" name="estrellas" value="1">
+                <label for="radio5">★</label>
+              </p>
+            </form>
+            <hr>
+
+
+            <h1><a href="">Primer día de clases</a></h1>
+            <p class="lead"><i class="fa fa-user"></i> por <a href="">Cat Leader</a></p>
+            <hr>
+            <img src="image/meme4.jpg" class="img-responsive">
+
+            <hr>
+            <p><i class="fa fa-calendar"></i> Publicado el 16 Diciembre, 2018 a las 16:46</p>
+            <p><i class="fa fa-tags"></i> Etiquetas: <a href=""><span class="badge badge-info">Gato</span></a> <a href=""><span class="badge badge-info">Meme</span></a> <a href=""><span class="badge badge-info">Apruebame Profe</span></a> <a href=""><span class="badge badge-info">Primer dia</span></a></p>
+            <form>
+              <p class="clasificacion">
+                <input id="radio1" type="radio" name="estrellas" value="5">
+                <label for="radio1">★</label>
+                <input id="radio2" type="radio" name="estrellas" value="4">
+                <label for="radio2">★</label>
+                <input id="radio3" type="radio" name="estrellas" value="3">
+                <label for="radio3">★</label>
+                <input id="radio4" type="radio" name="estrellas" value="2">
+                <label for="radio4">★</label>
+                <input id="radio5" type="radio" name="estrellas" value="1">
+                <label for="radio5">★</label>
+              </p>
+            </form>
+            <hr>
+
+            <h1><a href="">Voy a meter tus opiniones...</a></h1>
+            <p class="lead"><i class="fa fa-user"></i> por <a href="">Cat Leader</a></p>
+            <hr>
+            <img src="image/meme5.png" class="img-responsive">
+
+            <hr>
+            <p><i class="fa fa-calendar"></i> Publicado el 14 Diciembre, 2018 a las 08:28</p>
+            <p><i class="fa fa-tags"></i> Etiquetas: <a href=""><span class="badge badge-info">Gato</span></a> <a href=""><span class="badge badge-info">Meme</span></a></p>
+            <form>
+              <p class="clasificacion">
+                <input id="radio1" type="radio" name="estrellas" value="5">
+                <label for="radio1">★</label>
+                <input id="radio2" type="radio" name="estrellas" value="4">
+                <label for="radio2">★</label>
+                <input id="radio3" type="radio" name="estrellas" value="3">
+                <label for="radio3">★</label>
+                <input id="radio4" type="radio" name="estrellas" value="2">
+                <label for="radio4">★</label>
+                <input id="radio5" type="radio" name="estrellas" value="1">
+                <label for="radio5">★</label>
+              </p>
+            </form>
+            <hr>
+
+            <h1><a href="">Esta es tu cara...</a></h1>
+            <p class="lead"><i class="fa fa-user"></i> por <a href="">Cat Leader</a></p>
+            <hr>
+            <img src="image/meme6.jpg" class="img-responsive">
+
+            <hr>
+            <p><i class="fa fa-calendar"></i> Publicado el 12 Diciembre, 2018 a las 19:50</p>
+            <p><i class="fa fa-tags"></i> Etiquetas: <a href=""><span class="badge badge-info">Gato</span></a> <a href=""><span class="badge badge-info">Meme</span></a> <a href=""><span class="badge badge-info">Apruebame Profe</span></a> <a href=""><span class="badge badge-info">Crueldad</span></a></p>
+            <form>
+              <p class="clasificacion">
+                <input id="radio1" type="radio" name="estrellas" value="5">
+                <label for="radio1">★</label>
+                <input id="radio2" type="radio" name="estrellas" value="4">
+                <label for="radio2">★</label>
+                <input id="radio3" type="radio" name="estrellas" value="3">
+                <label for="radio3">★</label>
+                <input id="radio4" type="radio" name="estrellas" value="2">
+                <label for="radio4">★</label>
+                <input id="radio5" type="radio" name="estrellas" value="1">
+                <label for="radio5">★</label>
+              </p>
+            </form>
+            <hr>
+          </div>
+
+          <div class="col-lg-4 hide_mobile">
+            <div class="well mb-5">
+              <h4><i class="fa fa-search"></i>Buscar...</h4>
+              <div class="input-group">
+                <input type="text" class="form-control">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </span>
+              </div>
+            </div>
+
+            <div class="well mb-5 hide_mobile">
+              <h4><i class="fa fa-tags"></i> Etiquetas populares</h4>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul class="list-unstyled">
+                    <li><a href=""><span class="badge badge-info">Gato</span></a>
+                    </li>
+                    <li><a href=""><span class="badge badge-info">Meme</span></a>
+                    </li>
+                    <li><a href=""><span class="badge badge-info">Apruebame Profe</span></a>
+                    </li>
+                    <li><a href=""><span class="badge badge-info">Crueldad</span></a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-6">
+                  <ul class="list-unstyled">
+                    <li><a href=""><span class="badge badge-info">Haber estudiado</span></a>
+                    </li>
+                    <li><a href=""><span class="badge badge-info">Perro</span></a>
+                    </li>
+                    <li><a href=""><span class="badge badge-info">Tarea</span></a>
+                    </li>
+                    <li><a href=""><span class="badge badge-info">Primer dia</span></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="well hide_mobile">
+              <h4><i class="fa fa-fire"></i> Publicaciones populares:</h4>
+              <ul>
+                <li><a href="">Tu cara cuando el profesor...</a></li>
+                <li><a href="">Toma y que la muerte del perro parezca natural</a></li>
+                <li><a href="">Primer dia de clases</a></li>
+                <li><a href="">Voy a meter tus opiniones...</a></li>
+                <li><a href="">Esta es tu cara...</a></li>
+                <li><a href="">Cuando el profesor...</a></li>
+              </ul>
+            </div>
+
+          </div>
+          <div style="margin:auto;">
+            <a href="memes2.html"><button type="button" class="btn btn-primary font-weight-bold mb-3 mt-3">Siguiente</button></a>
+          </div>
+        </div>
+      </div>
+
+
+      <footer class="page-footer font-small stylish-color-dark pt-4"  style="background-color:#333">
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left white">
+
+          <!-- Grid row -->
+          <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-4 mx-auto">
+
+              <!-- Content -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4 blue">Redes Sociales</h5>
+
+              <a class="btn-floating btn-lg fa-stack" href="#">
+                <i class="fab fa-instagram fa-stack-2x"></i>
+              </a>
+
+              <a class="btn-floating btn-lg fa-stack" href="#">
+                <i class="fab fa-twitter fa-stack-2x"></i>
+              </a>
+
+              <a class="btn-floating btn-lg fa-stack" href="#">
+                <i class="fab fa-facebook fa-stack-2x"></i>
+              </a>
+
+              <a class="btn-floating btn-lg fa-stack" href="#">
+                <i class="fab fa-youtube fa-stack-2x"></i>
+              </a>
+
+              <a class="btn-floating btn-lg fa-stack" href="#">
+                <i class="fab fa-pinterest fa-stack-2x"></i>
+              </a>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-2 mx-auto">
+
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4 blue">Usuarios</h5>
+
+              <ul class="list-unstyled white">
+                <li>
+                  <a href="404.html">Ninja Cat</a>
+                </li>
+                <li>
+                  <a href="404.html">Meowth</a>
+                </li>
+                <li>
+                  <a href="404.html">Nyan Cat</a>
+                </li>
+              </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-2 mx-auto">
+
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4 blue">Posts</h5>
+
+              <ul class="list-unstyled white">
+                <li>
+                  <a href="404.html">Ha caido el...</a>
+                </li>
+                <li>
+                  <a href="404.html">Adiestrar a...</a>
+                </li>
+                <li>
+                  <a href="404.html">123456, su...</a>
+                </li>
+                <li>
+                  <a href="404.html">Remiaudiseñando el...</a>
+                </li>
+              </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-2 mx-auto blue">
+
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Memes</h5>
+
+              <ul class="list-unstyled white">
+                <li>
+                  <a href="404.html">Tu cara cuando...</a>
+                </li>
+                <li>
+                  <a href="404.html">Cuando el profesor...</a>
+                </li>
+                <li>
+                  <a href="404.html">Toma y que parezca...</a>
+                </li>
+                <li>
+                  <a href="404.html">Primer día...</a>
+                </li>
+              </ul>
+
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <hr>
+
+        <!-- Call to action -->
+        <ul class="list-unstyled list-inline text-center py-2">
+          <li class="list-inline-item">
+            <h5 class="mb-1">¿No tienes cuenta?</h5>
+          </li>
+
+          <li class="list-inline-item">
+            <a href="registro.html" class="btn btn-info btn-rounded">Registrarse</a>
+          </li>
+        </ul>
+        <!-- Call to action -->
+
+        <hr>
+
+        <!-- Copyright -->
+        <div class="text-center py-3">© 2018 Copyright:
+          <a href="index.html">Meetcats</a>
+        </div>
+        <!-- Copyright -->
+
+      </footer>
+    </body>
+    </html>

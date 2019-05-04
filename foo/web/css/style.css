@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+#site-tittle{
+  font-family: 'Permanent Marker';
+  font-size: 100px;
+}
+
+.rm-a{
+  text-decoration: none;
+  color: white;
+}
+
+.rm-a:hover{
+  color:white;
+  text-decoration: none;
+}
+
+.tittle{
+  font-size: 48px;
+}
+
+
+.noticia1{
+  background: url("../image/dominacion.jpg") no-repeat;
+  height: 100%;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+footer div{
+  color: white;
+}
+
+footer .btn{
+  font-weight: bold !important;
+  background-color: #4a5d7c;
+  border-color: #4a5d7c !important;
+}
+
+footer .btn:hover{
+  background-color: #5a7f99;
+}
+
+footer h5{
+  color: #5a7f99;
+}
+
+.error-404 {
+  margin: 0 auto;
+  text-align: center;
+}
+.error-404 .error-code {
+  bottom: 60%;
+  color: #4686CC;
+  font-size: 96px;
+  line-height: 100px;
+  font-weight: bold;
+}
+.error-404 .error-desc {
+  font-size: 12px;
+  color: #647788;
+}
+.error-404 .m-b-10 {
+  margin-bottom: 10px!important;
+}
+.error-404 .m-b-20 {
+  margin-bottom: 20px!important;
+}
+.error-404 .m-t-20 {
+  margin-top: 20px!important;
+}
+
+.error-404 .btn-primary {
+  margin-bottom: 40px !important;
+}
+
+.hide-bullets {
+  list-style:none;
+  margin-left: -40px;
+  margin-top:20px;
+}
+
+.thumbnail {
+  padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  width: 100%;
+}
+
+.featured-post{
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+  color: #EEE8AA;
+}
+
+.bold{
+  font-weight: bolder !important;
+}
+
+p > label{
+  color:grey;
+  font-size:22px;
+}
+
+form > p > input[type = "radio"]{ display:none;}
+
+.clasificacion{
+  direction: rtl;  /* right to left */
+  unicode-bidi: bidi-override;/* bidi de bidireccional */
+}
+
+form > p > label:hover{color:orange;}
+
+form > p > label:hover ~ label{color:orange;}
+
+form > p > input[type = "radio"]:checked ~ label{color:orange;}
+
+.avatar{
+  width: 30px;
+  height: 30px;
+}
+
+.avatar-text{
+  display:inline-block;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
+.sesion{
+  padding-top: 12px;
+}
+
+.login-option{
+  text-align: center;
+}
+
+.destroy-world{
+  color: black;
+}
+
+.destroy-world:hover{
+  color: red;
+}
+
+.register-text{
+  font-weight: bold;
+}
+
+.btn-reg{
+  font-weight: bold !important;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .hide_mobile {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+.top-3-block{
+  width: 90%;
+  height: 185px;
+}
+
+.social-font{
+  font-family: 'Bungee', cursive;
+}
