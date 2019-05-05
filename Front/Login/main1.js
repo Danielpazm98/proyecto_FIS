@@ -64,5 +64,5 @@
 
 
 function validate_t(form){
-	window.location.href= "prueba.html"; 
+	window.location.href= "profile.html"; 
 }
