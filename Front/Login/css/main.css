@@ -157,6 +157,7 @@ iframe {
 .wrap-login100 {
   width: 390px;
   background: #fff;
+  /* background: rgb(22, 201, 37); */
   /* background: #006699; */
   border-radius: 10px;
   position: relative;
@@ -194,6 +195,7 @@ iframe {
   width: 100%;
   position: relative;
   background-color: #e6e6e6;
+  /* background-color: red; */
   border: 1px solid transparent;
   border-radius: 3px;
 }

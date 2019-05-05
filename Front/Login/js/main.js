@@ -18,7 +18,7 @@
         }
         if (check == true) {
             alert("ok");
-            window.location = '../prueba.html';
+            location.replace = "../prueba2.hmtl";
         } else {
             alert("Error");
         }
@@ -38,15 +38,15 @@
     });
 
 
-    function is_valid() {
+    // function is_valid() {
 
-        if(check == true){
-            window.location = '../prueba.html';
-        }else{
-            alert("Error");
-        }
+    //     if(check == true){
+    //         // window.location = '../prueba.html';
+    //     }else{
+    //         alert("Error");
+    //     }
 
-    }
+    // }
 
     function validate (input) {
         if($(input).attr('type') == 'email' || $(input).attr('name') == 'email') {
