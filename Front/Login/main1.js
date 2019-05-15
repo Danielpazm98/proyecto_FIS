@@ -56,6 +56,7 @@
 		$(thisAlert).removeClass('alert-validate');
 	}
 
+	
 
 
 
@@ -66,3 +67,13 @@
 function validate_t(form){
 	window.location.href= "profile.html"; 
 }
+
+// funtion course_t(id){
+// 	var x = document.getElementById(id);
+// 	if (x.style.display === "block") {
+// 		x.style.display = "none";
+// 	} else {
+// 		x.style.display = "block";
+// 	}
+// }
+

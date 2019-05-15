@@ -108,4 +108,5 @@ h1{
 
 .login_button:hover{
 	background-color: rgb(127, 127, 221);
+	cursor: pointer;
 }
