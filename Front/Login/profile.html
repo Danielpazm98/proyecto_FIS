@@ -5,6 +5,39 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="profile_s.css">
 	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$(".subjects").hide();
+			$(".tarea").hide();
+			$(".calif").hide();
+			$(".home").click(function(){
+				$(".inicio").show();
+				$(".tarea").hide();
+				$(".subjects").hide();
+				$(".calif").hide();
+			});
+			$(".course").click(function(){
+				$(".subjects").show();
+				$(".inicio").hide();
+				$(".calif").hide();
+				$(".tarea").hide();
+			});
+			$(".work").click(function(){
+				$(".inicio").hide();
+				$(".subjects").hide();
+				$(".calif").hide();
+				$(".tarea").show();
+			});
+			$(".grades").click(function(){
+				$(".inicio").hide();
+				$(".tarea").hide();
+				$(".subjects").hide();
+				$(".calif").show();
+			});
+		})
+	</script>
 
 </head>
 
@@ -37,45 +70,26 @@
 			<!-- <nav class="main-page"> -->
 			<nav class="main-page">
 				<ul>
-					<div class="menu">
+					<div class="menu" id="leftsidebar">
 						<img  src="avatar.jpg" class="avatar" alt="avatar1">
 						<div class="options1">
-							<div class="course" type="button" id="course" onclick="course_t(this.id)">Mis asignaturas </div>
-							<div class="work">Mis tareas</div>
-							<div class="session">Cerrar sesión</div>
+							<div class="home" type="button">Home </div>
+							<div class="course" type="button">Mis asignaturas </div>
+							<div class="work" type="button">Mis tareas</div>
+							<div class="grades" type="button">Mis calificaciones</div>
+							<div class="session" onclick="return_t()">Cerrar sesión</div>
 						</div>
 					</div>
-					<!-- <div class="main-page">
-						<div class="menu1">
-							<img  src="avatar.jpg" class="avatar" alt="avatar1">
-							<div class="options1">
-								<div class="course" type="button" id="course" onclick="course_t(this.id)">Mis asignaturas </div>
-								<div class="work">Mis tareas</div>
-								<div class="session">Cerrar sesión</div>
-							</div>
-						</div>
-					<div> -->
 				</ul>
 			</nav>
 
-			<div class="inicio">hola que tal</div>
-			<div class="course-menu">asignaturas</div>
-
-	</section>
-
-	<!-- <script>
-		// funtion course_t(elID){
-		// 		var x = document.getElementById(id);
-		// 		if (x.style.display === "block") {
-		// 			x.style.display = "none";
-		// 		} else {
-		// 			x.style.display = "block";
-		// 		}
-		// 	}
-	// </script> -->
+			<div id="main">
+				<div class="inicio">hola que tal</div>
+				<div class="subjects">asignaturas</div>
+				<div class="tarea">tareas</div>
+				<div class="calif">calificaciones</div>
+			</div>
+		</section>
 	<script src="main1.js"></script>
-
-
-
 
 </body>
