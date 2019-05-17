@@ -93,6 +93,7 @@
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	padding-top: 50px;
+	width: 100%;
 }
 
 .name{
@@ -103,10 +104,20 @@
 }
 
 .border-text{
-	/* margin-left: 20px; */
 	border: 1px solid;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	border-radius: 10px;
+}
+
+.inter-border-text{
+	border: 1px solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.s-text{
+	margin-left: 10px;
 }
 
 .welcome{
@@ -118,10 +129,17 @@
 	margin-top: 70px;
 }
 
+#space2{
+	margin-top: 10px;
+}
+
+#inter-space{
+	margin-top: 10px;
+}
+
 p{
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: rgb(190, 190, 190);
 	text-align: center;
 	width: 50%;
 	margin-left: auto;
