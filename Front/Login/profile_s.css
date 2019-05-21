@@ -1,3 +1,5 @@
+
+
 .header{
 	background-color: rgb(80, 71, 199);
 	width: 100%;
@@ -18,11 +20,6 @@
 	padding-top: 5px;
 }
 
-.menu {
-  display: inline-block;
-  cursor: pointer;
-}
-
 .avatar{
 	width: 150px;
 }
@@ -30,7 +27,7 @@
 .menu{
 	margin-top: 10px;
   background-color: rgb(189, 185, 185);
-	height: 500px;
+	height: 400px;
 	width: 150px;
 }
 
@@ -105,6 +102,7 @@
 
 .border-text{
 	border: 1px solid;
+	border-color:  #c3c1c0;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	border-radius: 10px;
@@ -114,6 +112,10 @@
 	border: 1px solid;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	border-radius: 10px;
+	/* background-color: rgb(190, 190, 190); */
+	background-color:  #09a7d6 ;
+	color: white;
 }
 
 .s-text{
@@ -129,12 +131,12 @@
 	margin-top: 70px;
 }
 
-#space2{
+#inter-space{
 	margin-top: 10px;
 }
 
-#inter-space{
-	margin-top: 10px;
+body{
+	background-color: #eef7fa  ;
 }
 
 p{
@@ -166,11 +168,17 @@ h3{
 
 table{
 	border-collapse: collapse;
-	/* margin-left: 20px; */
 	width: 100%;
 }
 
-td, th{
+th{
+	border: 1px solid;
+	text-align: center;
+	font-size: 15px;
+	padding: 8px;
+}
+
+td{
 	border: 1px solid;
 	text-align: left;
 	font-size: 15px;

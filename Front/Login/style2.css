@@ -1,7 +1,7 @@
 body{
 	height: 100px;
 	font-family: 'Roboto', sans-serif;
-	
+
 }
 
 .limiter{
@@ -48,13 +48,13 @@ h1{
 	width: 100%;
 	position: relative;
 	/* background-color: green; */
-	
+
 }
 
 .user_input{
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
-	
+
 	align-self: center;
 	background-color: rgb(199, 196, 196);
 	border: none;
@@ -72,7 +72,7 @@ h1{
 .pwd_input{
 		font-family: 'Roboto', sans-serif;
 	font-size: 18px;
-	
+
 	/* align-self: center; */
 	background-color: rgb(199, 196, 196);
 	border: none;
@@ -109,4 +109,13 @@ h1{
 .login_button:hover{
 	background-color: rgb(127, 127, 221);
 	cursor: pointer;
+}
+
+.link{
+	margin-left: 200px;
+}
+
+a{
+	color: blue;
+	text-decoration: none;
 }
