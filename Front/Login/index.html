@@ -1,104 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
-	<title>Login V10</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
-<!--===============================================================================================-->
+	<title>DEVED</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style2.css">
 	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+
 </head>
+
+
 <body>
-	
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+https://firebase.google.com/docs/web/setup#config-web-app -->
+<script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-auth.js"></script>
+
+<script>
+// Your web app's Firebase configuration
+var firebaseConfig = {
+apiKey: "AIzaSyBzHQSjna5dK1HJESzcJtP1gLVWTpfsLYU",
+	authDomain: "fis-project-fca1d.firebaseapp.com",
+	databaseURL: "https://fis-project-fca1d.firebaseio.com",
+	projectId: "fis-project-fca1d",
+	storageBucket: "fis-project-fca1d.appspot.com",
+	messagingSenderId: "939930811929",
+	appId: "1:939930811929:web:7adb07ed66ab2d3e"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+</script>
+
+
+
 	<div class="limiter">
-		<div class="container-login100">
-			<div class="wrap-login100 p-t-50 p-b-90">
-				<form class="login100-form validate-form flex-sb flex-w">
-					<span class="login100-form-title p-b-51">
-						Login
-					</span>
+		<div class="container">
+			<div class="login_box p-t-10 p-b-30">
+				<form class="login-form">
+				<!-- <span class="login_text p-b-51">
+				<
+					Login
+				</span> -->
+					<h1>Login</h1>
 
-					
-					<div class="wrap-input100 validate-input m-b-16" data-validate = "Username is required">
-						<input class="input100" type="text" name="username" placeholder="Username">
-						<span class="focus-input100"></span>
-					</div>
-					
-					
-					<div class="wrap-input100 validate-input m-b-16" data-validate = "Password is required">
-						<input class="input100" type="password" name="pass" placeholder="Password">
-						<span class="focus-input100"></span>
+
+					<div class="user validate-input">
+						<input class="user_input" type="text" name="uname" placeholder="Username">
 					</div>
 
-					<div >
-
-					</div>
-					
-					<div class="flex-sb-m w-full p-t-3 p-b-24">
-						<div class="contact100-form-checkbox">
-							<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
-							<label class="label-checkbox100" for="ckb1">
-								Remember me
-							</label>
-						</div>
-
-						<div>
-							<a href="#" class="txt1">
-								Forgot?
-							</a>
-						</div>
+					<div class="pwd validate-input">
+						<input class="pwd_input" type="password" name="passwd" placeholder="Password">
 					</div>
 
-					<div class="container-login100-form-btn m-t-17">
-						<button class="login100-form-btn">
-							Login
-						</button>
-						<form return 
+					<div class="buttons">
+						<!-- <button class="login_button"> Login</button> -->
+
+					<input class="login_button" type="button" value="Login" onclick="validate_t(this.form)">
+
 					</div>
+
+					<!-- <a href="(link)" class="link"> Inicia sesión con Google	</a> -->
+					<p class="link">
+						<a onclick="GoogleLogin()">Inicia sesión con Google</a>
+					</p>
 
 				</form>
 			</div>
 		</div>
 	</div>
-	
 
-	<div id="dropDownSelect1"></div>
-	
-<!--===============================================================================================-->
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/animsition/js/animsition.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/daterangepicker/moment.min.js"></script>
-	<script src="vendor/daterangepicker/daterangepicker.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
-
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="main1.js"></script>
 </body>
-</html>
